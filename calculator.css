@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* Calculator Container */
+#cal-body {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 320px;
+}
+
+/* Heading */
+#heading-cal {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Display */
+#display {
+    background-color: #e9eef4;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 32px;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #333333;
+    min-height: 60px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Buttons */
+.button-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #f5f7fa;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px 20px;
+    flex: 1;
+    margin: 0 5px;
+    color: #333333;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #d0d7e2;
+}
+
+.button:active {
+    background-color: #bcc5d3;
+}
+
+.operation {
+    background-color: #ff8c00;
+    color: #ffffff;
+}
+
+.operation:hover {
+    background-color: #ff7300;
+}
+
+.operation:active {
+    background-color: #cc5d00;
+}
+
+/* Large Button (0) */
+#num0 {
+    flex: 2;
+}
+
+/* Utility Classes */
+.mt-10 {
+    margin-top: 10px;
+}
